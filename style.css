@@ -1,0 +1,59 @@
+html {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid white;
+	background-color: black;
+}
+
+header h1, header h5, nav{
+	display: inline-block;
+	font-weight: 100;
+	margin: 5px;
+}
+
+header h1, header h5 {
+	display: inline-block;
+	font-weight: 100;
+}
+
+nav {
+	padding: 5px;
+}
+
+nav h5 {
+	border-bottom: 1px solid white;
+}
+
+#mission-statement {
+	font-family: serif;
+	text-align: left;
+	width: 40%;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.pillars {
+	margin: auto;
+	display: grid;
+	grid-template: 200px / repeat(3, 1fr);
+	text-align: center;
+	grid-gap: 5px;
+}
+
+.pillar {
+	display: inline-block;
+	border: 1px solid white;
+	height: ;
+}
