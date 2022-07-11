@@ -77,9 +77,87 @@
 		</div>
 		<div id="view-2">
 			<div id="view-2-container" class="row">
-				<div class="main xl-text">
-					In Zen Buddhism, Mu is a lesson to help the student let go of their perception of themselves and their identity. At Mu Methods we are building a protocol for identity to be redefined as never before, the next step to digital enlightenment.
-				</div>
+				<!-- <div class="main xl-text"> -->
+The Problem
+
+		The current model of the internet exploits the individual. Organizations hold our data hostage for access to their services and platforms.
+	It is exclusive and inherently discriminatory, requiring us to disclose personal information and navigate barriers to entry to participate. Every
+	act online requires creating an account that provides at least a name and email, and often age, date of birth, race and ethnicity. This data is
+	shared with third parties, subjecting the user to a harassment of unsolicited emails, ads, and messages. There is no telling what other uses this
+	personal information is being exploited for. Once it is in an entity’s hands, it is theirs to do with as they will.
+		This process is repeated again and again for Netflix, Facebook, Amazon, Eventbrite, Bank of America, LinkedIn, Apple, ad infinitum,
+	fracturing our identity into countless pieces and creating new vulnerabilities every time we engage with a service. The burden is on the user to
+	manage access to all of these accounts for the privilege of private companies profiting from our data. This is an inefficient, broken system.
+		Similarly, for every purchase made online the user has to enter their bank card or account information. This is a cumbersome and insecure
+	process, creating vulnerabilities every time this data is transmitted or saved on a platforms centralized system. Blockchain technology solves the
+	payment problem, requiring a user to simply sign a message to complete a transaction. However, payments are only one use case. Blockchain can also
+	be used to solve the broken identity management system, simply requiring message signing to access a new platform. The protocol that will make this
+	possible is what we are building at Mu Methods.
+
+The Solution
+
+		No longer will you be required to give up personal information and create a new identity for every platform you engage with. When you
+	access a new system it will only require a message to be signed in your wallet. Platforms will be connecting to your singular digital identity
+	instead of having you build a new account every time you want to access a service or join a community.
+
+	Identity Protocol
+
+		To accomplish this we have to fix the existing cryptographic identity system, then integrate it with payments and off-chain platforms. At
+	Mu Methods we are laser-focused on step one to provide an open-source, foundational identity management infrastructure. Similar to the IPFS and
+	blockchain solutions for p2p data transfer and asset management, our protocol is an open-souce off-chain solution for public/private key management
+	that can be utilized by any cryptographic identity provider. This network will address three primary issues: account linking, seed phrase
+	recoverability, and decentralized application connectivity.
+
+	Account Linking
+
+		Currently connecting crypto accounts requires a user to import/export their seed phrase making it vulnerable to attack. If the seed phrase
+	is unknown, they have to export it from their wallet. The seed phrase may be stored incorrectly making it insecure. In addition, it adds a layer of
+	complexity to the UX. A user may create a new account every time they use a different wallet because they don't feel comfortable importing/
+	exporting their seed phrase. Instead of importing/exporting our network will generate private linking keys to permission new accounts through a
+	primary account so the user does not need to access the seed phrase over and over again. Mu will generate permissioning private keys through
+	aggregate threshold signatures.
+
+	Seed Phrase Recoverability
+
+		While this minimizes the need to access the seed phrase, it does not eliminate it. The current single failure point of seed phrases is
+	unsustainable and unscalable. If a user will lose access to their account if they lose their seed phrase they are unlikely to utilize it as a safe
+	and secure method of identity and asset management. To solve recoverability of seed phrases for those instances in which a user has lost complete
+	access to their account we will use key sharding. Instead of holding the entire seed phrase in one location it will be split and distributed among
+	several nodes in the network. It is social recovery without the need of smart contracts or friends to distribute the shards to. If the user does
+	not have trusted friends they will be provided with alternative locations for shard distribution. They will not be required to store their seed
+	phrase.
+
+	Decentralized Application Connectivity
+
+		In order to transition to the single-tap connectivity necessary to access platforms with our digital ID's, wallet connect standards need an
+	update. Currently a user needs to choose which wallet they are connecting from to communicate with a dapp. Our network will remove this step, no
+	longer requiring the user to choose their wallet. When a dapp proposes to sign a transaction it will go through our network to be signed by any
+	device key. Rather than requesting the local account, the dapp is told what account is going to sign for which transaction. All keys will act from
+	one device/account.
+
+	Verified Credentials
+
+		Once these features are functioning the personal identification details required to engage with certain platforms ie. name, age, address,
+	email, social security number, etc. will be securely stored on the same network. These proven personal identifiers are referred to as verified
+	credentials. They are private and only accessible if a user permissions them to be. For example, when a bank requires verified identifiers to
+	engage with a client the user can one-tap permission access to the specific and limited information they need.
+
+	Financial Transactions
+
+		While crypo payments are functional, they are not scalable. We are closely following legislation in the US and abroad regarding Central
+	Bank Digital Currencies (CBDC) and stablecoins. Once crypto is legally defined traditional platforms compliance departments ie. Netflix,
+	Eventbrite, etc. will have a clear path to accepting crypo payments. Integrating these into the digital identities built on our network will
+	eliminate the attack vectors created when financial account information is exposed.
+
+Transition
+
+		We will begin onboarding to the network through pull requests and wallet reviews of the largest wallet providers by UAW. Additionally we
+	will build a proof of concept wallet to demonstrate the networks functionality and security best practices. These strategies will upgrade existing
+	wallet infrastructure as well as set a standard for new wallet providers.
+		Our vision will take several years to realize and require collaboration with companies across the Web3 ecosystem working on verified
+	credentials, payment systems, and KYC integration. It is going to take many solutions to build this reality. If there are potential synergies
+	between your product and ours please contact us. We are eager to work together and solve identity management as a community.
+						<!-- </div> -->
 			</div>
 		</div>
 <!-- 		<div id="view-3">
