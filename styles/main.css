@@ -21,13 +21,6 @@ body {
   display: none;
 
 }
-#view-1 {
-  scroll-snap-align: start;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
 #view-2 {
   scroll-snap-align: start;
 	border: dashed;
@@ -54,40 +47,6 @@ body {
 	flex-direction: column;
 }
 
-header {
-/*
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 50px;
-	width: 100%;
-	border-bottom: 1px dashed white;
-*/
-	background-color: #F3F1D5;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 1em;
-	flex-direction: column;
-}
-
-.frills-1 {
-	height: 10vh;
-}
-
-header img {
-	height: 35vh;
-	width: 65vw;
-}
-header div {
-	display: flex;
-	flex-direction: row;
-	border-top: dashed;
-	border-bottom: dashed;
-	width: 95vw;
-	align-self: center;
-	height: 10vh;
-}
 
 #view-4 h2 {
 	font-family: AlexangDisplay;

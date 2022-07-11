@@ -3,3 +3,7 @@
 @import "./fonts.css";
 
 @import "./main.css" ; /* Using a string */
+@import "./view-1.css" ; /* Using a string */
+@import "./view-2.css" ; /* Using a string */
+@import "./view-3.css" ; /* Using a string */
+@import "./view-4.css" ; /* Using a string */
