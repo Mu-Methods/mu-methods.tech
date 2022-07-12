@@ -1,0 +1,12 @@
+#view-2 {
+  scroll-snap-align: start;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#view-2-container {
+justify-content: space-around;
+}
