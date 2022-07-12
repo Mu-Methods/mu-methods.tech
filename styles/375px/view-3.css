@@ -1,0 +1,15 @@
+#view-3 {
+  scroll-snap-align: start;
+	border: dashed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#view-3 img {
+	height: 50vh;
+	opacity: 0.5;
+	position: absolute;
+	right: 0;
+}
