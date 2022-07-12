@@ -1,11 +1,3 @@
-#view-4 {
-  scroll-snap-align: start;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
-
 #view-4 div {
 	justify-content: center;
 }
@@ -17,21 +9,10 @@
 
 #view-4 h2 {
 	margin-top: 1em;
-	font-family: AlexangDisplay;
-	letter-spacing: 0.2em;
-	text-align: center;
-	align-self: center;
 }
 
 .in-line-title {
 	font-size: 1em;
-	font-family: AlexangDisplay;
-}
-
-.bio {
-	padding: 1em;
-	display: inline-block;
-	text-align: left;
 }
 
 .bio span {
@@ -41,14 +22,11 @@
 
 #us {
 	width: 85%;
-	justify-content: space-around;
 }
 
 .team-photo {
 	width: 75px;
 	height: 75px;
 	border-radius: 100px;
-	align-self: center;
-	float: left;
 	margin: 5px;
 }
