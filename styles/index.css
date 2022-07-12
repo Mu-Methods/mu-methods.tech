@@ -1,9 +1,24 @@
-@import "./reset.css"; /* Using a string */
+@import "./reset.css";
 
 @import "./fonts.css";
 
-@import "./main.css" ; /* Using a string */
-@import "./view-1.css" ; /* Using a string */
-@import "./view-2.css" ; /* Using a string */
-@import "./view-3.css" ; /* Using a string */
-@import "./view-4.css" ; /* Using a string */
+@import "./base.css";
+/*styles for larger screens*/
+@import "./1064px/index.css" screen and (min-width: 1064px);
+@import "./1064px/view-1.css" screen and (min-width: 1064px);
+@import "./1064px/view-2.css" screen and (min-width: 1064px);
+@import "./1064px/view-3.css" screen and (min-width: 1064px);
+@import "./1064px/view-4.css" screen and (min-width: 1064px);
+
+@import "./375px/index.css" screen and (max-width: 375px);
+@import "./375px/view-1.css" screen and (max-width: 375px);
+@import "./375px/view-2.css" screen and (max-width: 375px);
+@import "./375px/view-3.css" screen and (max-width: 375px);
+@import "./375px/view-4.css" screen and (max-width: 375px);
+
+
+@import "./mid-range/index.css" screen and (min-width: 375px) and (max-width: 1064px);
+@import "./mid-range/view-1.css" screen and (min-width: 375px) and (max-width: 1064px);
+@import "./mid-range/view-2.css" screen and (min-width: 375px) and (max-width: 1064px);
+@import "./mid-range/view-3.css" screen and (min-width: 375px) and (max-width: 1064px);
+@import "./mid-range/view-4.css" screen and (min-width: 375px) and (max-width: 1064px);
