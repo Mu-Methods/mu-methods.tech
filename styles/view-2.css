@@ -8,5 +8,16 @@
 }
 
 #view-2-container {
-justify-content: space-around;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#view-2-container a {
+  color: #605F54;
+  border: none;
+}
+
+#view-2-container a:hover {
+  color: #5f9ea0;
 }

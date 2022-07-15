@@ -2,12 +2,9 @@ header {
   height: 36vh;
 }
 
-#cqf h3{
-  font-size: 1em;
-}
-
-#cqf h2{
-  font-size: 0.75em;
+#header-container {
+  display: flex;
+  flex-direction: column;
 }
 
 #featured {
@@ -16,8 +13,21 @@ header {
 
 #featured h2 {
   padding-top: 0.25em;
+  font-size: 0.75em;
+}
+
+#featured h3 {
+  font-size: 1em;
 }
 
 #contact {
   margin-left: 0.25em;
+}
+
+#contact h2 {
+  font-size: 0.75em;
+}
+
+#contact h3 {
+  font-size: 1em;
 }

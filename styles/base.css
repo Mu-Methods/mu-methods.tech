@@ -5,6 +5,8 @@ html {
   width: 100vw;
   height: 100vh;
   letter-spacing: 0.2em;
+  display: flex;
+  align-items: ;
 }
 
 body {

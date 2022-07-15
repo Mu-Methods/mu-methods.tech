@@ -1,13 +1,8 @@
 #view-2 {
-  scroll-snap-align: start;
-	border: dashed;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+
 }
 
-#view-2-container {
-justify-content: space-around;
+#view-2 #view-2-container{
+	width: 100vw;
+	height: 100vh;
 }

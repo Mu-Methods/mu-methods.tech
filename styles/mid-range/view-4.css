@@ -1,43 +1,26 @@
 #view-4 {
-  scroll-snap-align: start;
-	border: dashed;
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
+	font-size: small;
+	align-self: center;
 }
 
 #view-4 h2 {
-	font-family: AlexangDisplay;
-	letter-spacing: 0.2em;
-	text-align: center;
 	font-size: 2.5vw;
-	align-self: center;
 	font-weight: 900;
+	margin-bottom: 0.5em;
 }
 
 .in-line-title {
 	font-size: 2em;
-	font-family: AlexangDisplay;
-}
-
-.bio {
-	padding: 1em;
-	display: inline-block;
-	text-align: left;
 }
 
 #us {
 	padding-left: 5em;
 	padding-right: 5em;
-	justify-content: space-around;
 }
 
 .team-photo {
 	width: 175px;
 	height: 200px;
 	border-radius: 18px;
-	align-self: center;
-	float: left;
 	margin: 1em;
 }
