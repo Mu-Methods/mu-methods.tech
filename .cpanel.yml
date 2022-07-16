@@ -1,0 +1,8 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mumenfis/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp icon.png $DEPLOYPATH
+    - /bin/cp -R imgs $DEPLOYPATH
+    - /bin/cp -R bios $DEPLOYPATH
+    - /bin/cp -R styles $DEPLOYPATH
