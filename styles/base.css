@@ -13,8 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  /*height: 400%; for when it's time for goals*/
-  height: 300%;
+  height: 400%;
   scroll-snap-type: y mandatory;
 
 }

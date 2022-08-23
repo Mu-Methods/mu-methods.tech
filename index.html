@@ -25,11 +25,11 @@
 		 		<div>
 					<h4 id="ABOUT">ABOUT</h4>
 		 		</div>
-				<!--
+
 				<div>
-					<h4 id="GOALS">GOALS & ROAD MAP</h4>
+					<h4 id="WORK">ALLIANCE & ADVISORY SERVICES</h4>
 				</div>
-				-->
+
  				<div>
 					<h4 id="TEAM">TEAM</h4>
 		 		</div>
@@ -85,9 +85,30 @@
 
 			</div>
 		</div> <!-- end view-2 -->
-<!-- 		<div id="view-3">
-		</div>
- -->
+
+		<div id="view-3">
+			<div class="gap"></div>
+			<div id="gs-intro">
+				<h2>ALLIANCE & ADVISORY SERVICES</h2>
+			</div>
+			<!-- <div class="gap"></div> -->
+
+			<div class="column" id="AA-container">
+				<div class="row" id="partner">
+					<img src="./imgs/SVG/shake.svg">
+					<p>
+Self-sovereign identity will not be realized by one company or one vision. It is going to take the entire Web3 community. There are incredible projects building different pieces of the puzzle to get us there. If there are synergies between your project and ours, please reach out to us. We are eager to collaborate with you.					</p>
+				</div>
+				<div class="row" id="consulting">
+					<img src="./imgs/SVG/eye.svg">
+					<p>
+						If you are in need of advisory services around wallet building, key management, or security please contact us here.
+					</p>
+				</div>
+			</div>
+			<div class="gap"></div>
+		</div><!-- end view-3 -->
+
  		<div class="column" id="view-4">
 			<div>
 				<div class="gap"></div>
@@ -141,12 +162,12 @@
 			const views = {
 				view1: document.getElementById('view-1'),
 				view2: document.getElementById('view-2'),
-				// view3: document.getElementById('view-3'),
+				view3: document.getElementById('view-3'),
 				view4: document.getElementById('view-4'),
 			};
 
 			[{e: document.getElementById('ABOUT'), v: 2},
-				// {e: document.getElementById('GOALS'), v: 3},
+				{e: document.getElementById('WORK'), v: 3},
 				{e: document.getElementById('TEAM'), v: 4}
 			].forEach((i) => {
 				i.e.onclick = () => {
