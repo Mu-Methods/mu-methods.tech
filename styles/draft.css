@@ -7,54 +7,48 @@ html {
 	color: #605F54;
 	font-family: "AlexangDisplay";
 	font-weight: normal;
-    font-style: normal;
-    letter-spacing: 2px;
-    scroll-behavior: smooth;
+  font-style: normal;
+  letter-spacing: 2px;
+  scroll-behavior: smooth;
 }
 
 body {
 
 }
 
+.center {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 header {
+	display: flex;
 	border-bottom: 1px solid;
+	width: 100vw;
 }
 
 header img {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 65%;
+}
+
+#option-bar {
+	padding-top: 1em;
+	display: flex;
+	width: 100vw;
+	height: 5em;
+	justify-content: center;
 }
 
 #option-bar a{
+	font-size: 2em;
 	text-decoration: none;
 	color: #605F54;
 }
 
-#subtitle {
-	margin-left: auto;
-  	margin-right: auto;
-	align-items: center;
-	justify-items: center;
-	display: flex;
-}
-
-#subtitle div {
-	font-size: 2vw;
-}
-
-#subtitle img {
-	max-width: 30%;
-}
-
-#option-bar {
-	display: flex;
-	border-bottom: 1px solid;
+#option-bar a:hover {
+	color: #5f9ea0;
 }
 
 #option-bar div {
-	font-size: 3vw;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -89,7 +83,7 @@ header img {
 	padding: 1vw;
 }
 
-#landing {
+#about {
 	display: flex;
 	margin: 1vw;
 	align-items: top;
@@ -109,34 +103,46 @@ header img {
 
 #mission img {
   padding-right: 1em;
+  width: 10vw;
+  justify-self: right;
+  opacity: 0.7;
 }
 
 #mission h2 {
   border-bottom: solid 1px;
 }
 
-#about {
-	border: solid 1px;
+#featured {
 	padding: 1vw;
 	width: 75vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 1vw;
 }
 
-#about div {
+#featured .grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid;
+}
+
+#featured .grid div {
+	display: inline-block;
 	font-size: 2vw;
+	grid-area: 1 / 1;
+	padding: 1vw;
+}
+
+#featured .flex a {
+	padding: 1vw;
 	width: 50%;
+	display: inline-block;
 }
 
-#about a {
-	width: 30%;
-}
-
-#about a img{
+#featured a img{
 	width: 100%;
+	display: inline-block;
+	grid-area: 2 / 1;
 }
 
 #team {
@@ -152,8 +158,10 @@ header img {
 }
 
 #team img {
-	width: 20vw;
+	width: 15vw;
 	border-radius: 1vw;
+	justify-self: center;
+	opacity: 0.9;
 }
 
 .bio {
@@ -173,7 +181,10 @@ header img {
 }
 
 .title {
-	margin: 1vw;
 	font-size: 3vw;
-	text-align: center;
+	text-align: left;
+	text-transform: capitalize;
+	width: 75vw;
+	margin-right: auto;
+	margin-left: auto;
 }
