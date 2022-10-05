@@ -16,6 +16,21 @@ body {
 
 }
 
+body div {
+}
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+
+.section {
+	margin-top: 5vw;
+}
+
 .center {
 	margin-right: auto;
 	margin-left: auto;
@@ -24,10 +39,12 @@ body {
 header {
 	display: flex;
 	border-bottom: 1px solid;
-	width: 100vw;
+	width: 75vw;
+	align-items: center;
 }
 
 header img {
+	width: 25vw;
 }
 
 #option-bar {
@@ -38,8 +55,14 @@ header img {
 	justify-content: center;
 }
 
+#option-bar img {
+	position: absolute;
+	left: 0;
+	height: 7.5vw;
+}
+
 #option-bar a{
-	font-size: 2em;
+	font-size: 2.5vw;
 	text-decoration: none;
 	color: #605F54;
 }
@@ -49,8 +72,7 @@ header img {
 }
 
 #option-bar div {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 2vw;
 }
 
 .overlay-container {
@@ -75,13 +97,22 @@ header img {
 }
 
 #contact {
-	display: grid;
-	grid-auto-flow: column;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75vw;
 	padding: 1vw;
+	border-top: solid;
 }
+
+#contact h2 {
+}
+
+#contact .grid {
+	grid-auto-flow: column;
+	grid-gap: 3vw;
+}
+
+
 
 #about {
 	display: flex;
@@ -154,7 +185,6 @@ header img {
 	justify-content: center;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1vw;
-	border-bottom: solid;
 }
 
 #team img {
@@ -187,4 +217,18 @@ header img {
 	width: 75vw;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+#funding {
+	width: 75vw;
+	padding: 1vw;
+}
+
+#funding {
+	border-top: solid;
+}
+
+#funding a {
+	width: 100%;
+	padding: 3vw;
 }

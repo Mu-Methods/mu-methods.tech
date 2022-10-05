@@ -8,21 +8,27 @@
 	<link rel="stylesheet" type="text/css" href="./styles/draft.css">
 </head>
 <body>
-	<header>
-	<div id="option-bar">
-		<img src="./imgs/SVG/header.svg" class="center">
-		<div>
-			<a href="#about">
-				ABOUT
-			</a>
+	<header class="center">
+		<img src="./imgs/SVG/header.svg">
+		<div id="option-bar">
+			<div>
+				<a href="#featured">
+					FEATURED
+				</a>
+			</div>
+			<div>
+				<a href="#team">
+					TEAM
+				</a>
+			</div>
+			<div>
+				<a href="#contact">
+					CONTACT
+				</a>
+			</div>
 		</div>
-		<div>
-			<a href="#team">
-				TEAM
-			</a>
-		</div>
-	</div>
 	</header>
+	<h2 class="title section">ABOUT Mu Methods</h2>
 	<div id="about">
 		<div id="mission">
 			<img src="./imgs/SVG/recoverability.svg">
@@ -48,7 +54,7 @@
 		</div>
 	</div>
 	<div id="featured">
-		<h2 class="title">FEATURED ITEM</h2>
+		<h2 class="title section">FEATURED ITEM</h2>
 		<div class="grid">
 			<div>
 				In Zen Buddhism, Mu is a lesson to help the student let go of their perception of themselves and their identity. At Mu Methods we are building a protocol for identity to be redefined as never before, the next step to digital enlightenment. If you want to learn more about our long term mission and our vision for achieving our goal, read the <a href="https://mirror.xyz/jugalpatel.eth/tRjccnqebB0XjFih0UL_NQVZePoTQ92rC1G_4IRiaV4" target="_blank">launch article</a>.
@@ -58,7 +64,7 @@
 			</a>
 		</div>
 	</div>
-		<h2 class="title">THE TEAM</h2>
+		<h2 class="title section">THE TEAM</h2>
 		<div id="team">
 			<img src="./imgs/team-photos/Frankie.jpeg">
 			<img src="./imgs/team-photos/Jugal.jpeg">
@@ -78,33 +84,46 @@
 				<span><span class="in-line-title">Renée</span> was born and raised in the Bay Area. Her favorite flavor of smoothie is strawberry banana. She earned her Bachelor of Arts in theater and mathematics from Sarah Lawrence College. While in New York, She had the honor of working with Professor Philip Ording on several projects including his book <b>99 Variations on a Proof</b>. Education and accessibility rank high in Renée’s personal values. In line with these values is the opportunity to broaden the utility of crypto technologies and to streamline the wallet experience. The mathematics of the secure and efficient transmission of information has long captivated her and she is excited to tackle the problem of recovering supposedly lost information.</span>				
 			</div>
 		</div>
-		<div>
-			<h2 class="title">CONTACT & OTHER CONTENT</h2>
+		<div id="contact" class="section">
+			<div>
+				<h2 class="title">CONTACT & OTHER CONTENT</h2>
+			</div>
+			<div class="grid">
+				<div id="github" class="overlay-container">
+					<img class="overlay" src="./imgs/SVG/coming.svg">
+					<img class="blur" src="./imgs/SVG/github.svg">
+				</div>
+				<a id="twitter" href="https://twitter.com/mu_methods" target="_blank">
+						<img src="./imgs/SVG/twitter.svg">
+				</a>
+				<a id="email" href="mailto:hello@mu-methods.tech?subject=Hello" target="_blank">
+					<img src="./imgs/SVG/email.svg">
+				</a>
+				<a href="https://mirror.xyz/jugalpatel.eth/tRjccnqebB0XjFih0UL_NQVZePoTQ92rC1G_4IRiaV4" target="_blank">
+				<div class="overlay-container">
+					<img class="overlay" src="./imgs/SVG/extra.svg">
+					<img class="blur" src="./imgs/SVG/launch.svg">
+				</div>
+				</a>
+				<div class="overlay-container">
+					<img class="overlay" src="./imgs/SVG/coming.svg">
+					<img class="blur" src="./imgs/SVG/white-paper.svg">
+				</div>
+			</div>
 		</div>
-		<div id="contact">
-					<div id="github" class="overlay-container">
-						<img class="overlay" src="./imgs/SVG/coming.svg">
-						<img class="blur" src="./imgs/SVG/github.svg">
-					</div>
-					<a id="twitter" href="https://twitter.com/mu_methods" target="_blank">
-							<img src="./imgs/SVG/twitter.svg">
-					</a>
-					<a id="email" href="mailto:hello@mu-methods.tech?subject=Hello" target="_blank">
-						<img src="./imgs/SVG/email.svg">
-					</a>
-					<a href="https://mirror.xyz/jugalpatel.eth/tRjccnqebB0XjFih0UL_NQVZePoTQ92rC1G_4IRiaV4" target="_blank">
-					<div class="overlay-container">
-						<img class="overlay" src="./imgs/SVG/extra.svg">
-						<img class="blur" src="./imgs/SVG/launch.svg">
-					</div>
-					</a>
-					<div class="overlay-container">
-						<img class="overlay" src="./imgs/SVG/coming.svg">
-						<img class="blur" src="./imgs/SVG/white-paper.svg">
-					</div>
-		</div>
-		<div id="funding">
+		<div id="funding" class="center section">
 			<h2 class="title">FUNDED BY</h2>
+			<div class="flex">
+				<a href="https://aptoslabs.com/" target="_blank">
+					<img src="./imgs/SVG/aptos.svg">
+				</a>
+				<a href="https://ethereum.foundation/" target="_blank">
+					<img src="./imgs/SVG/e-f.svg">
+				</a>
+				<a href="https://near.org/" target="_blank">
+					<img src="./imgs/SVG/near.svg">
+				</a>
+			</div>
 		</div>
 </body>
 </html>
