@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="./styles/draft.css">
 </head>
 <body>
-	<header class="center">
+	<header class="center flex">
 		<img src="./imgs/SVG/header.svg">
-		<div id="option-bar">
+		<div id="option-bar" class="center flex">
 			<div>
 				<a href="#featured">
 					FEATURED
@@ -28,33 +28,35 @@
 			</div>
 		</div>
 	</header>
-	<h2 class="title section">ABOUT Mu Methods</h2>
-	<div id="about">
-		<div id="mission">
-			<img src="./imgs/SVG/recoverability.svg">
-			<div>
-				<h2>Recoverability</h2>
-				If users lose access to their account on their primary device they can regain access to their account through the network
-			</div>
-			<img src="./imgs/SVG/p-key.svg">
-			<div>
-				<h2>Private Key Generation</h2>
-				Users don’t need their password to access their account on a secondary device or wallet
-			</div>
-			<img src="./imgs/SVG/credential.svg">
-			<div>
-				<h2>Verified Credential Management</h2>
-				Secured and proven identifiers can be permissioned how you want, where you want, when you want
-			</div>
-			<img src="./imgs/SVG/app.svg">
-			<div>
-				<h2>Application Connectivity</h2>
-				Transactions can be signed by any device key no longer requiring users to choose the wallet provider they are connecting from
+	<div class="section">
+		<h2 class="title">ABOUT Mu Methods</h2>
+		<div id="about">
+			<div id="mission">
+				<img src="./imgs/SVG/recoverability.svg">
+				<div>
+					<h2>Recoverability</h2>
+					If users lose access to their account on their primary device they can regain access to their account through the network
+				</div>
+				<img src="./imgs/SVG/p-key.svg">
+				<div>
+					<h2>Private Key Generation</h2>
+					Users don’t need their password to access their account on a secondary device or wallet
+				</div>
+				<img src="./imgs/SVG/credential.svg">
+				<div>
+					<h2>Verified Credential Management</h2>
+					Secured and proven identifiers can be permissioned how you want, where you want, when you want
+				</div>
+				<img src="./imgs/SVG/app.svg">
+				<div>
+					<h2>Application Connectivity</h2>
+					Transactions can be signed by any device key no longer requiring users to choose the wallet provider they are connecting from
+				</div>
 			</div>
 		</div>
 	</div>
-	<div id="featured">
-		<h2 class="title section">FEATURED ITEM</h2>
+	<div id="featured" class="section">
+		<h2 class="title">FEATURED ITEM</h2>
 		<div class="grid">
 			<div>
 				In Zen Buddhism, Mu is a lesson to help the student let go of their perception of themselves and their identity. At Mu Methods we are building a protocol for identity to be redefined as never before, the next step to digital enlightenment. If you want to learn more about our long term mission and our vision for achieving our goal, read the <a href="https://mirror.xyz/jugalpatel.eth/tRjccnqebB0XjFih0UL_NQVZePoTQ92rC1G_4IRiaV4" target="_blank">launch article</a>.
@@ -64,11 +66,12 @@
 			</a>
 		</div>
 	</div>
-		<h2 class="title section">THE TEAM</h2>
-		<div id="team">
+	<div id="team" class="section">
+		<h2 class="title">THE TEAM</h2>
+		<div class="grid">
 			<img src="./imgs/team-photos/Frankie.jpeg">
 			<img src="./imgs/team-photos/Jugal.jpeg">
-			<img class="team-photo" src="./imgs/team-photos/Renee.jpeg">
+			<img src="./imgs/team-photos/Renee.jpeg">
 			<div id="frankie" class="bio">
 				<span><span class="in-line-title">Frankie</span> began working in software development in 2016 as MetaMask’s #3 hire. She stayed on the team for four years as a core dev, seeing the company through its inception, the ICO boom and bust, crypto kitties onslaught, and eventual dominance of the Ethereum wallet ecosystem. Her primary responsibility was to manage the code focusing on network connectivity, transaction construction and sending. She maintained a heavy security mindset while assisting the founder, Kumavis, in his research.
 				During her tenure, Frankie realized that key management was the solution to login complexity and personal identity verification. Through her journey of p2p protocols she gained a deep understanding of the underlying technologies required to construct and execute the next step to self-sovereign identity.</span>
@@ -84,6 +87,7 @@
 				<span><span class="in-line-title">Renée</span> was born and raised in the Bay Area. Her favorite flavor of smoothie is strawberry banana. She earned her Bachelor of Arts in theater and mathematics from Sarah Lawrence College. While in New York, She had the honor of working with Professor Philip Ording on several projects including his book <b>99 Variations on a Proof</b>. Education and accessibility rank high in Renée’s personal values. In line with these values is the opportunity to broaden the utility of crypto technologies and to streamline the wallet experience. The mathematics of the secure and efficient transmission of information has long captivated her and she is excited to tackle the problem of recovering supposedly lost information.</span>				
 			</div>
 		</div>
+	</div>
 		<div id="contact" class="section">
 			<div>
 				<h2 class="title">CONTACT & OTHER CONTENT</h2>
@@ -111,7 +115,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="funding" class="center section">
+		<div id="funding" class="section">
 			<h2 class="title">FUNDED BY</h2>
 			<div class="flex">
 				<a href="https://aptoslabs.com/" target="_blank">

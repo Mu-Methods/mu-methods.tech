@@ -28,7 +28,12 @@ body div {
 }
 
 .section {
-	margin-top: 5vw;
+	margin-bottom: 5vw;
+	width: 75vw;
+	padding: 1vw;
+	margin-right: auto;
+	margin-left: auto;
+	border-top: solid;
 }
 
 .center {
@@ -37,8 +42,6 @@ body div {
 }
 
 header {
-	display: flex;
-	border-bottom: 1px solid;
 	width: 75vw;
 	align-items: center;
 }
@@ -49,14 +52,11 @@ header img {
 
 #option-bar {
 	padding-top: 1em;
-	display: flex;
-	width: 100vw;
 	height: 5em;
 	justify-content: center;
 }
 
 #option-bar img {
-	position: absolute;
 	left: 0;
 	height: 7.5vw;
 }
@@ -72,7 +72,7 @@ header img {
 }
 
 #option-bar div {
-	margin: 2vw;
+	margin: 1vw;
 }
 
 .overlay-container {
@@ -97,11 +97,6 @@ header img {
 }
 
 #contact {
-	margin-left: auto;
-	margin-right: auto;
-	width: 75vw;
-	padding: 1vw;
-	border-top: solid;
 }
 
 #contact h2 {
@@ -122,9 +117,7 @@ header img {
 }
 
 #mission {
-	padding: 1vw;
 	font-size: 2vw;
-	width: 75vw;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -143,11 +136,11 @@ header img {
   border-bottom: solid 1px;
 }
 
+#mission div {
+	width: 75%;
+}
+
 #featured {
-	padding: 1vw;
-	width: 75vw;
-	margin-right: auto;
-	margin-left: auto;
 	margin-top: 1vw;
 }
 
@@ -164,10 +157,15 @@ header img {
 	padding: 1vw;
 }
 
-#featured .flex a {
-	padding: 1vw;
+#featured .grid div a {
 	width: 50%;
 	display: inline-block;
+	color: #605F54;
+}
+
+#featured .grid a:hover {
+	color: #5f9ea0;
+	text-decoration: none;
 }
 
 #featured a img{
@@ -176,12 +174,7 @@ header img {
 	grid-area: 2 / 1;
 }
 
-#team {
-	width: 75vw;
-	padding: 1vw;
-	display: grid;
-	margin-right: auto;
-	margin-left: auto;
+#team .grid {
 	justify-content: center;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1vw;
@@ -214,14 +207,6 @@ header img {
 	font-size: 3vw;
 	text-align: left;
 	text-transform: capitalize;
-	width: 75vw;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-#funding {
-	width: 75vw;
-	padding: 1vw;
 }
 
 #funding {
