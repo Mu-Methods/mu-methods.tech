@@ -187,8 +187,24 @@ header img {
 	opacity: 0.9;
 }
 
+#advisory .grid {
+	justify-content: center;
+	grid-template-columns: 1fr;
+	grid-gap: 1vw;
+}
+
+#advisory img {
+	width: 15vw;
+	border-radius: 1vw;
+	justify-self: center;
+	opacity: 0.9;
+}
+
 .bio {
+	width: 25vw;
 	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
 	border-top: solid;
 	font-size: 1.5vw;
 }
